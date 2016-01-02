@@ -1,2 +1,2 @@
 # Linux Forcer
-Its for fun, troll your friends, get them to UPGRADE!
+It's for fun, troll your friends, get them to UPGRADE!
