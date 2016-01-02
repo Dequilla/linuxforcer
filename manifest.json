@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+
+	"name": "Dequilla's Linux forcer",
+	"description": "A simple 'force your friends' extension that will help you in your strive towards getting them to migrate to Linux!",
+	"version": "1.0",
+
+	"permissions": [
+		"tabs",
+		"<all_urls>"
+	],
+
+	"content_scripts": [
+		{
+			"matches": [
+				"http://*/*",
+				"https://*/*"
+			],
+			
+			"js": ["jquery.min.js","script.js"],
+			"run_at": "document_end" 
+		}
+	]
+}
