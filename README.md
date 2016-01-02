@@ -1,2 +1,2 @@
-# linuxforcer
+# Linux Forcer
 Its for fun, troll your friends, get them to UPGRADE!
