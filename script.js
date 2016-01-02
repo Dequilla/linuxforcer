@@ -70,7 +70,19 @@ var run = function(){
 					allElements[i].className += " LINUXEDQQ"
 				}
 				if(allElements[i].tagName == "A"){
-					allElements[i].href = "https://www.youtube.com/watch?v=8bVDQ4rVrM4";
+					rand = Math.random();
+					if(rand >= 0 && rand <= 0.20){
+						allElements[i].href = "https://www.youtube.com/watch?v=8bVDQ4rVrM4";
+					}else if(rand >= 0.21 && rand <= 0.40){
+						allElements[i].href = "https://www.youtube.com/watch?v=yX8yrOAjfKM";
+					}else if(rand >= 0.40 && rand <= 0.60){
+						allElements[i].href = "https://www.youtube.com/watch?v=fb1v1YnUmTM";
+					}else if(rand >= 0.61 && rand <= 0.80){
+						allElements[i].href = "http://9gag.com/gag/4106083/windows-vs-mac-vs-linux";
+					}else if(rand >= 0.81 && rand <= 1){
+						allElements[i].href = "http://bestdesignoptions.com/?p=9658";
+					}
+					
 				}
 			}
 		}
