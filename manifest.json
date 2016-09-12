@@ -5,6 +5,9 @@
 	"description": "A simple 'force your friends' extension that will help you in your strive towards getting them to migrate to Linux!",
 	"version": "1.0",
 
+	"author": "Edwin 'Dequilla' Wallin",
+	"homepage_url": "http://dequilla.com",
+
 	"permissions": [
 		"tabs",
 		"<all_urls>"
